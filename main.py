@@ -28,7 +28,7 @@ while True:
             pygame.quit()
             sys.exit()
 
-    # 畫出鳥跟地板
+    # 畫出鳥跟背景
     screen.blit(bg_surface, (0, 0))
     screen.blit(bird_surface, bird_rect)
 
